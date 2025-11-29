@@ -45,12 +45,10 @@ int main() {
 
     vector<int> digits;
     int x;
-
     while (ss >> x)
         digits.push_back(x);
 
     vector<int> ans = Solution().plusOne(digits);
-
     for (auto x : ans)
         cout<<x<<' ';
     cout<<endl;
